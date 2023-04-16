@@ -9,7 +9,7 @@ The NoteTaker5000 is a modified starter code application that can be used to wri
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Contributions](#contributions)
+- [Technologies Used](#technologies-used)
 
 ## INSTALLATION
 
@@ -19,7 +19,7 @@ Clone the [Git Repository](https://github.com/jhdk707/NoteTaker5000) and run `np
 
 After verifying that `npm i` has completed installing the dependencies, run `npm start` or `node server.js` and this will start your localhost:3001 page. To end the server, use `ctrl + c` on the keyboard and then enter `y or n` when you are prompted to do so. You can use the localhost to test or you can go to [Heroku here]()
 
-## Technolgies Used
+## Technologies Used
 
 - Html
 - CSS
