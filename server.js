@@ -19,11 +19,13 @@ app.use(express.urlencoded({ extended: true }));
 
 //// Routes \\\\
 // Get request for index.html file
+
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "public/index.html"));
 });
 
 // Get request for notes.html file
+
 app.get("/notes", (req, res) =>
   res.sendFile(path.join(__dirname, "public/notes.html"))
 );
@@ -37,7 +39,7 @@ app.get("/api/notes", (req, res) => {
 app.post("/api/notes", (req, res) => {
   // ID added to each note being added to the JSON file
   const { title, text } = req.body;
-  const id = noteid;
+  const id = noteid();
   const addNote = {
     title,
     text,
@@ -68,6 +70,7 @@ app.delete("/api/notes/:id", (req, res) => {
 });
 
 // Start the server
+
 app.listen(PORT, () => {
   console.log(`API server now on port ${PORT}!`);
 });
