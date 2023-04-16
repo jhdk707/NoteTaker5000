@@ -10,6 +10,7 @@ The NoteTaker5000 is a modified starter code application that can be used to wri
 - [Usage](#usage)
 - [License](#license)
 - [Technologies Used](#technologies-used)
+- [Images](#images-of-application)
 
 ## INSTALLATION
 
@@ -27,3 +28,8 @@ After verifying that `npm i` has completed installing the dependencies, run `npm
 - Javascript
 - Node.js
   - Express.js
+
+## Images of Application
+
+![NoteTaker5000 Landing page](assets/notetaker5000lngpg.png)
+![NoteTaker5000 Notes Display](assets/notetakerloggednotes.png)
